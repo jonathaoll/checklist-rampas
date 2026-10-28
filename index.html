@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Checklist Rampas Móveis Dobráveis</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>🛠️ Checklist – Rampas Móveis Dobráveis</h1>
+
+<div class="field"><label for="date">Data</label><input type="date" id="date"></div>
+<div class="field"><label for="tag">Tag/Numeração da rampa</label><input type="text" id="tag" placeholder="Ex.: RMP-012"></div>
+
+<div id="items"></div>
+
+<div class="field"><label for="note">Algo para sinalizar</label><textarea id="note" rows="3" placeholder="Observações..."></textarea></div>
+
+<div class="field">
+  <button id="generate">Gerar Texto</button>
+  <button id="copy" disabled>Copiar Texto</button>
+</div>
+<div id="msg"></div>
+<div class="field"><textarea id="output" readonly placeholder="O texto do checklist aparecerá aqui..."></textarea></div>
+
+<script src="script.js"></script>
+</body>
+</html>
